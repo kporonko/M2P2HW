@@ -3,20 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SafariPark.Interfaces;
 
-namespace SafariPark.Models
+namespace SafariPark.Interfaces
 {
-    internal class Park : IPark
+    internal interface IPark
     {
-        public Park(int id, string name, double sq, ISection[] sections)
-        {
-            Id = id;
-            Name = name;
-            Square = sq;
-            Sections = sections;
-        }
-
         public int Id { get; set; }
         public string Name { get; set; }
         public double Square { get; set; }

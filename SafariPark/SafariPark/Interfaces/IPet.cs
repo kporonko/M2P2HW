@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariPark.Interfaces
 {
-    internal interface IPet
+    public interface IPet
     {
         public string NickName { get; set; }
     }

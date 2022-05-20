@@ -6,6 +6,7 @@ namespace SafariPark
     {
         public static void Main(string[] args)
         {
+            Starter.Run();
             Console.Read();
         }
     }

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SafariPark.Interfaces.AnimalGroups.Birds
 {
+    /// <summary>
+    /// Interface for birds that can fly.
+    /// </summary>
     internal interface IFlyBird : IBird, IFlier, IWalker
     {
     }

@@ -11,6 +11,9 @@ using SafariPark.Models.Animals;
 
 namespace SafariPark.Services
 {
+    /// <summary>
+    /// All the animals in the park.
+    /// </summary>
     internal class AnimalService : IAnimalService
     {
         public IAnimal[] Assortment { get; set; } = new IAnimal[10];

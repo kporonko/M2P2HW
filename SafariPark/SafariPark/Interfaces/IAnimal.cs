@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariPark.Interfaces
 {
-    internal interface IAnimal
+    public interface IAnimal : IPet
     {
         bool IsDangerous { get; }
         public double Weight { get; }

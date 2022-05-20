@@ -9,6 +9,13 @@ namespace SafariPark.Models
 {
     internal class Section : ISection
     {
+        public Section(int id, double sq, IAnimal[] animals)
+        {
+            SectionId = id;
+            Square = sq;
+            Animals = animals;
+        }
+
         public double Square { get; set; }
         public IAnimal[] Animals { get; set; }
 

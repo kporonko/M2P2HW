@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace SafariPark.Interfaces
 {
-    public interface ISection
+    internal interface ICommunicateAnimal
     {
-        double Square { get; set; }
-        IAnimal[] Animals { get; set; }
-        public int SectionId { get; }
+        public void Communicate(IAnimal animal);
     }
 }
